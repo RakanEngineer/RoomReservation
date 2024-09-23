@@ -8,6 +8,7 @@
             while (!isValidUser)
             {
                 Console.Clear();
+                // move cursor to position
                 Console.SetCursorPosition(2, 2);
                 Console.Write("Username: ");
                 Console.SetCursorPosition(2, 4);
@@ -21,6 +22,7 @@
                 if (accessGranted)
                 {
                     isValidUser = true;
+                    Console.WriteLine("Access granted!");
                 }
                 else
                 {
